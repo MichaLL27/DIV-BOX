@@ -1,0 +1,468 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+/* main DIV */
+.mainDiv{
+    border-style: outset;
+    border-color: rgb(128, 126, 126);
+    height: 500px;
+    width: 503px;
+    border-width: 6px;
+    margin: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 1/4 div */
+.firstDiv{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 245px;
+    height: 176px;
+    display: flex;
+}
+
+/* line 1 */
+.bigChild{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 45px;
+    height: 170px;
+    margin: 2px;
+}
+.bigDiv{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 45px;
+    height: 126px;
+}
+.smallDiv{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+    margin-top: 2px;
+}
+/* line 2 */
+.mainMediumChild{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    margin: 2px;
+    height: 170px;
+    width: 45px;
+}
+.smallChild{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+}
+.medium{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 45px;
+    margin-top: 2px;
+    height: 84px;
+}
+.smallChild1{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+    margin-top: 2px;
+}
+/* line 3 */
+.mainBigChild{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    margin: 2px;
+    height: 170px;
+    width: 45px;
+}
+.smallDiv1{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+}
+.medium1{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 45px;
+    margin-top: 2px;
+    height: 84px;
+}
+.smallDiv2{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+    margin-top: 2px;
+}
+/* line 4 */
+.mainHugeChild{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    margin: 2px;
+    height: 170px;
+    width: 94px;
+}
+.medium2{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 92px;
+}
+.hugeDiv{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 126px;
+    width: 92px;
+    margin-top: 2px;
+}
+/* 2/4 */
+.secondDiv{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 245px;
+    height: 176px;
+    display: flex;
+}
+/* line 2/4 - 1 */
+.TwolineDiv1{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 45px;
+    height: 170px;
+}
+.TwoLineDiv2{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 45px;
+    margin-top: 2px;
+    height: 84px;
+}
+.TwoLineDiv3{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+    margin-top: 2px;
+}
+.TwoLineDiv4{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 95px;
+    margin-top: 2px;
+}
+.TwoLineDiv6{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 126px;
+    width: 48px;
+    margin: 2px;
+}
+.TwoLineDiv7{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 168px;
+    width: 48px;
+    margin: 2px;
+}
+.TwoLineDiv8{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 168px;
+    width: 48px;
+    margin: 2px;
+}
+.TwoLineDiv9{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 486px;
+    width: 48px;
+    margin: 2px;
+}
+.TwoLineDiv10{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+    margin-top: 44px;
+}
+.TwoLineDiv11{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+    margin-top: 140px;
+}
+.TwoLineDiv12{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+    margin-top: 140px;
+}
+/* 3/4 */
+.thirdDiv{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 240px;
+    height: 309px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+.thirdLineDiv1{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 176px;
+    width: 143px;
+}
+.thirdLineDiv2{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 85px;
+    width: 143px;
+}
+.thirdLineDiv3{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 43px;
+    width: 143px;
+    margin-top: 2px;
+}
+.thirdLineDiv4{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 43px;
+    width: 143px;
+    margin-top: 2px;
+}
+.thirdLineDiv5{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 176px;
+    width: 48px;
+    margin-left: 2px;
+}
+.thirdLineDiv6{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 176px;
+    width: 45px;
+    margin-left: 2px;
+}
+.thirdLineDiv7{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 40px;
+    width: 45px;
+}
+.thirdLineDiv8{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 134px;
+    width: 45px;
+    margin-top: 2px;
+}
+.thirdLineDiv9{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 132px;
+    width: 45px;
+}
+.thirdLineDiv10{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 133px;
+    width: 45px;
+    margin-left: 2px;
+}
+.thirdLineDiv11{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 43px;
+    width: 45px;
+}
+.thirdLineDiv12{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 87px;
+    width: 45px;
+    margin-top: 2px;
+}
+.thirdLineDiv13{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 133px;
+    width: 45px;
+    margin-left: 2px;
+}
+.thirdLineDiv14{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 133px;
+    width: 99px;
+    margin-left: 2px;
+    margin-top: 1px;
+}
+/* 3/4/3 */
+.fourthDiv{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    width: 194px;
+    height: 310px;
+    margin: 2px;
+}
+.fourthLineDiv1{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 85px;
+    width: 194px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fourthLineDiv2{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 85px;
+    width: 142px;
+}
+.fourthLineDiv3{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 85px;
+    width: 46px;
+    margin-left: 4px;
+}
+.fourthLineDiv4{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 42px;
+    margin-top: 2px;
+    width: 192px;
+    display: flex;
+}
+.fourthLineDiv5{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 42px;
+    width: 94px;
+}
+.fourthLineDiv6{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 42px;
+    width: 46px;
+    margin-left: 3px;
+}
+.fourthLineDiv7{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 42px;
+    width: 46px;
+    margin-left: 3px;
+}
+.fourthLineDiv8{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 135px;
+    margin-top: 2px;
+    width: 200px;
+    display: flex;
+}
+.fourthLineDiv9{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 134px;
+    margin-top: 2px;
+    width: 44px;
+}
+.fourthLineDiv10{
+    border-style: none;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 134px;
+    margin: 2px;
+    width: 146px;
+}
+.fourthLineDiv11{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 43px;
+    width: 146px;
+}
+.fourthLineDiv12{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 89px;
+    width: 146px;
+    margin-top: 2px;
+}
+.fourthLineDiv13{
+    border-style: inset;
+    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    height: 41px;
+    width: 192px;
+    margin-top: 2px;
+}
